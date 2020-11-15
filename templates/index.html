@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Mask Detection</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: aqua;
+            font-family: 'Bebas Neue', cursive;
+ 
+                }
+        h1{
+            text-align: center;
+            font-size: 70px;
+        }
+        form{
+            text-align: center;
+         padding-top: 180px;
+        }
+        input{
+            background-color: black;
+            color: chartreuse;
+            padding: 10px;
+            font-size: 40px;
+            border-radius: 15px;
+            border: none;
+
+        }
+        form :hover{
+            background-color: chartreuse;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Face Mask Detection</h1>
+    <form  action="http://localhost:5000/result" method="POST">
+        <input type="submit" value="CHECK">
+    </form>
+       
+</body>
+</html>
